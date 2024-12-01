@@ -88,3 +88,16 @@ body{
     width: 526px;
     height: 589px;
 }
+.download-cv{
+    padding: 13px 25px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
