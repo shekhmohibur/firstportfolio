@@ -1,7 +1,12 @@
 /* universal styles here */
 * {
-    background: rgb(255, 248, 243);
     font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 248, 243);
 }
 
 /* prymary btn styling here */
@@ -10,19 +15,43 @@
     height: 64px;
     border-radius: 5px;
     background: rgb(253, 110, 10);
-    color: aliceblue;
+    color: #fff;
     text-decoration: none;
-    padding: 20px 25px;
+    padding: 15px 25px;
     font-weight: 700;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: rgb(232, 99, 4);
 }
 
 /* header styles starts from here */
+/* mary logo styling starts */
+.logo {
+    width: 121px;
+    height: 61px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.logo-special {
+    color: rgb(253, 110, 10);
+}
+
 /* menu bar styling */
 .header-section {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 100vh;
+}
+
+.heading {
+    padding: 30px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .nav-bar .menu {
@@ -36,4 +65,23 @@
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
+
+.nav-bar .menu .nav-links:hover {
+    color: #e86304;
+}
+
 /* menu bar styling ends */
+/* bio section starts from here */
+.bio-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    padding: 0 20px;
+}
+
+.right-section img {
+    margin-top: 117px;
+    margin-bottom: -37px;
+}
