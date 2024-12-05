@@ -25,7 +25,7 @@ body {
 .primary-btn:hover {
     background-color: rgb(232, 99, 4);
 }
-
+/* primary btn styles ends here */
 /* header styles starts from here */
 /* mary logo styling starts */
 .logo {
@@ -77,12 +77,31 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.left-section{
+
+.left-section {
     padding: 0 20px;
 }
 
 .right-section img {
     margin-top: 117px;
-    margin-bottom: -37px;
-    
+    margin-bottom: -38px;
+}
+
+.mid-section .greeting {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.mid-section .name-mary {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.mid-section .short-bio {
+    font-size: 18px;
+    font-weight: 400;
+}
+.cv-btn{
+    font-size: ;
 }
