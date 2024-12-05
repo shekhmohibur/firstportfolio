@@ -1,0 +1,39 @@
+/* universal styles here */
+* {
+    background: rgb(255, 248, 243);
+    font-family: 'Open Sans';
+}
+
+/* prymary btn styling here */
+.primary-btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-weight: 700;
+}
+
+/* header styles starts from here */
+/* menu bar styling */
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bar .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-bar .menu .nav-links {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+/* menu bar styling ends */
