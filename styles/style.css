@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-body {
-    background-color: rgb(255, 248, 243);
-}
-
 /* prymary btn styling here */
 .primary-btn {
     width: 150px;
@@ -45,6 +41,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     min-height: 100vh;
+    background-color: rgb(255, 248, 243);
 }
 
 .heading {
@@ -101,3 +98,4 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+/* main section's css strats here */
