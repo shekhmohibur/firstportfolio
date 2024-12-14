@@ -21,6 +21,7 @@
 .primary-btn:hover {
     background-color: rgb(232, 99, 4);
 }
+
 /* primary btn styles ends here */
 /* header styles starts from here */
 /* mary logo styling starts */
@@ -98,4 +99,77 @@
     font-size: 18px;
     font-weight: 400;
 }
+
 /* main section's css strats here */
+.about-me {
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 130px;
+}
+
+.about-container {
+    height: 550px;
+    width: 1300px;
+    margin: 130px auto;
+}
+
+.primary-heading {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.primary-about {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-data {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-container {
+    width: 1300px;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-sub-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.primary-skills {
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 267px;
+    height: 377px;
+    text-align: justify;
+}
+.skills-heading{
+    margin: 30px 0px;
+}
+.skill-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
