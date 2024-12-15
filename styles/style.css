@@ -83,7 +83,7 @@
 .right-section img {
     margin-top: 219px;
     margin-bottom: -5px;
-    width: 800px;
+    width: 500px;
 }
 
 .mid-section .greeting {
@@ -230,4 +230,63 @@
     line-height: 27px;
     letter-spacing: 0%;
     text-align: left;
+}
+/* footer css starts from here */
+.footer-container{
+    height: 780px;
+    background: rgb(255, 248, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-about{
+    width: 562px;
+    height: 56px;
+    color: rgb(117, 117, 117);
+}
+.social{
+    margin-top: 20px;
+}
+.social .social-link{
+    text-decoration: none;
+    color:rgb(253, 110, 10);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.message-me{
+    display: flex;
+    flex-direction: column;
+}
+.input-css-same{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    outline: none;
+    padding: 10px;
+    border: none;
+    width: 461px;
+    height: 54px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.input-css-same::placeholder{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.message-me textarea{
+    resize: none;
+    height: 180px;
+}
+.message-btn{
+    height: 60px;
+    border: none;
+    cursor: pointer;
 }
