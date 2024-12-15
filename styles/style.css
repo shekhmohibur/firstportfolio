@@ -8,7 +8,7 @@
 /* prymary btn styling here */
 .primary-btn {
     width: 150px;
-    height: 64px;
+    height: 25px;
     border-radius: 5px;
     background: rgb(253, 110, 10);
     color: #fff;
@@ -83,6 +83,7 @@
 .right-section img {
     margin-top: 219px;
     margin-bottom: -5px;
+    width: 800px;
 }
 
 .mid-section .greeting {
@@ -196,12 +197,37 @@
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    margin-top: 30px;
+    margin: 30px 0;
 }
+
 .resume-des hr {
     width: 650px;
+    margin: 20px 0;
 }
+
 .sub-heading {
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sub-heading-des {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.from-institution {
+    margin: 10px 0;
+    display: inline-block;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
 }
