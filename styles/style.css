@@ -189,16 +189,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
 }
 
 .sub-summary-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 60px;
+    margin-top: 30px;
 }
-
-.resume-des {
-    width: 511px;
-    height: 175px;
+.resume-des hr {
+    width: 650px;
+}
+.sub-heading {
+    font-size: 30px;
+    font-weight: 700;
 }
