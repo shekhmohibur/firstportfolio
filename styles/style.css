@@ -361,3 +361,36 @@
         margin-top: 10px;
     }
 }
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header-section,
+    .about-container,
+    .skills-container,
+    .skill-sub-container,
+    .summary-container
+    .footer-container
+    {
+        width: 990px;
+    }
+    .about-container{
+        margin: 0 auto;
+    }
+    .skill-sub-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skills-container{
+        padding: 0;
+    }
+    .skills-container>p{
+        width: 95%;
+    }
+    .sub-summary-container{
+        flex-direction: column;
+    }
+    .resume-des hr{
+        width: 100%;
+    }
+    .input-css-same{
+        width: 100%;
+    }
+}
